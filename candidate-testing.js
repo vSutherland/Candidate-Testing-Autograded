@@ -48,12 +48,11 @@ function gradeQuiz(candidateAnswers) {
 }
 
 function runProgram() {
-  askForName();
-  // TODO 1.1c: Greet candidate using their name //
-   console.log();
-  askQuestion();
-  gradeQuiz(this.candidateAnswers);
+  const candidateName = askForName();
+  alert("Hello, " + candidateName + "! Let's take a quiz.");
+  askQuestion(candidateName);
 }
+
 
 // ----------- Don't write any code or change any code below this line ---------- //
 module.exports = {
