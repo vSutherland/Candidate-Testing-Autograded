@@ -3,7 +3,7 @@ const input = require('readline-sync');
 // TODO 2: modify your quiz app to ask 5 questions //
 
 // TODO 1.1a: Define candidateName // 
-let candidateName; 
+let candidateName; ("")
 // TODO 1.2a: Define question, correctAnswer, and candidateAnswer //
 let question; ("Who was the first American woman in space?");
 let correctAnswer; ("Sally Ride");
@@ -31,10 +31,10 @@ function askQuestion(name) {
 }
 
 function gradeQuiz(candidateAnswers) {
-  if (candidateAnswer.toLowerCase() === answer.toLowerCase()) {
-    alert("Correct! Well done, " + name + "!");
+  if (candidateAnswer === correctAnswer) {
+    console.log("Correct! Well done!");
 } else {
-    alert("Incorrect, " + name + ". The correct answer is Sally Ride.");
+    console.log("Incorrect, The correct answer is Sally Ride.");
 }
 
   // TODO 1.2c: Let the candidate know if they have answered the question correctly or incorrectly // 
