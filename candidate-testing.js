@@ -26,15 +26,16 @@ function askQuestion(name) {
   const answer = "Sally Ride";
   // TODO 1.2b: Ask candidate the question and assign the response as candidateAnswer //
   const candidateAnswer = prompt(question);
+  
+
+}
+
+function gradeQuiz(candidateAnswers) {
   if (candidateAnswer.toLowerCase() === answer.toLowerCase()) {
     alert("Correct! Well done, " + name + "!");
 } else {
     alert("Incorrect, " + name + ". The correct answer is Sally Ride.");
 }
-
-}
-
-function gradeQuiz(candidateAnswers) {
 
   // TODO 1.2c: Let the candidate know if they have answered the question correctly or incorrectly // 
 
