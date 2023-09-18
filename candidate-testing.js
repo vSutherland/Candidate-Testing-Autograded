@@ -7,7 +7,7 @@ let candidateName;
 // TODO 1.2a: Define question, correctAnswer, and candidateAnswer //
 let question; ("Who was the first American woman in space?");
 let correctAnswer; ("Sally Ride");
-let candidateAnswer; ""
+let candidateAnswer;
 
 
 //TODO: Variables for Part 2
@@ -17,7 +17,7 @@ let candidateAnswers;
 
 
 function askForName() {
-  const candidateName = prompt("What's your name?");
+  const candidateName = ("What's your name?");
 return candidateName;
 }
 
